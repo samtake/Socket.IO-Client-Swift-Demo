@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+inhibit_all_warnings!         #去警告
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Socket.IO-Client-Swift-Demo' do
+    pod 'Socket.IO-Client-Swift', '~> 15.0.0'
+end
+
